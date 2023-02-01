@@ -1,0 +1,117 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Abnormally high defined as IFPA>=1; Moderately high defined as 0.5=<IFPA< 1; Twelve month average of monthly price anomalies",
+                "Kampala, Maize, Wholesale price",
+                "Obs_Value = 0;  Kampala, Maize, Wholesale price",
+                "Kampala, Rice, Wholesale price",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "FAOSTAT Data/ Consumer Price Indices: http://www.fao.org/faostat/en/#data/CP.",
+                "Food Price Monitoring and Analysis (FPMA) online database: https://fpma.apps.fao.org/giews/food-prices/tool/public/#/dataset/domestic.",
+                ""
+              ]
+            },
+            "title": "SOURCE_DETAIL"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indicator of Food Price Anomalies (IFPA), by Consumer Food Price Index [2.c.1]",
+                "Indicator of Food Price Anomalies (IFPA) [2.c.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Type of product",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Maize",
+                "Rice",
+                ""
+              ]
+            },
+            "title": "Type of product"
+          },
+          {
+            "name": "Nature of data points",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Not Available",
+                "Global monitoring data",
+                ""
+              ]
+            },
+            "title": "Nature of data points"
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = NaN;  NaN = A figure was not provided",
+                "Obs_Value = 0;  Kampala, Maize, Wholesale price",
+                "Kampala, Rice, Wholesale price",
+                ""
+              ]
+            },
+            "title": "Observation-level footnotes"
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "NA",
+                "Food Price Monitoring and Analysis (FPMA) online database: https://fpma.apps.fao.org/giews/food-prices/tool/public/#/dataset/domestic.",
+                ""
+              ]
+            },
+            "title": "Source details"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "2-c-1",
+  "title": "Indicator of food price anomalies"
+}

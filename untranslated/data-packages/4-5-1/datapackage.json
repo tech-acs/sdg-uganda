@@ -1,0 +1,165 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Uganda DHS 2001. World Inequality Database on Education (WIDE), June 2019.; Data extracted on 01 April 2022.",
+                "Uganda Population and Housing Census 2002. IPUMS-Intertiol, Uganda Bureau of Statistics.; Data extracted on 01 April 2022.",
+                "Uganda DHS 2006. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above.; Data extracted on 01 April 2022.",
+                "Uganda DHS 2011. The survey collected data on school attendance for age 3-24 and educatiol attainment for age 3 and above.; Data extracted on 01 April 2022.",
+                "Uganda DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above.; Data extracted on 01 April 2022.",
+                "Uganda DHS 2011. The survey collected data on school attendance for age 3-24 and educatiol attainment for age 3 and above. Under Coverage (Students or individuals): Value based on 25-49 unweighted observations in sample.; Data extracted on 01 April 2022.",
+                "Uganda DHS 2006. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value suppressed (less than 25 unweighted observations in sample).; Data extracted on 01 April 2022.",
+                "Uganda DHS 2011. The survey collected data on school attendance for age 3-24 and educatiol attainment for age 3 and above. Under Coverage (Students or individuals): Value suppressed (less than 25 unweighted observations in sample).; Data extracted on 01 April 2022.",
+                "Uganda DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value based on 25-49 unweighted observations in sample.; Data extracted on 01 April 2022.",
+                "Uganda DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value suppressed (less than 25 unweighted observations in sample).; Data extracted on 01 April 2022.",
+                "Uganda DHS 2006. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value based on 25-49 unweighted observations in sample.; Data extracted on 01 April 2022.",
+                "UNESCO Institute for Statistics.  Data extracted on 01 April 2022.",
+                "National Learning Assessment (NLA): National Assessment of Progress in Education (NAPE); Grade 6; Minimum proficiency level: Adequate level Data extracted on 01 April 2022.",
+                "National Learning Assessment (NLA): National Assessment of Progress in Education (NAPE); Grade 9; Minimum proficiency level: Adequate level Data extracted on 01 April 2022.",
+                "National Learning Assessment (NLA): National Assessment of Progress in Education (NAPE); Grade 3; Minimum proficiency level: Advanced Level Data extracted on 01 April 2022.",
+                "National Learning Assessment (NLA): National Assessment of Progress in Education (NAPE); Grade 3; Minimum proficiency level: Advance Data extracted on 01 April 2022.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adjusted gender parity index for completion rate, by sex, location, wealth quintile and education level [4.5.1]",
+                "Adjusted location parity index for completion rate, by sex, location, wealth quintile and education level [4.5.1]",
+                "Adjusted wealth parity index for completion rate, by sex, location, wealth quintile and education level [4.5.1]",
+                "Adjusted gender parity index for participation rate in organized learning (one year before the official primary entry age), (ratio) [4.5.1]",
+                "Adjusted gender parity index for the proportion of teachers with the minimum required qualifications, by education level (ratio) [4.5.1]",
+                "Adjusted gender parity index for achieving a minimum proficiency level in reading and mathematics (ratio) [4.5.1]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Degree of urbanisation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Rural",
+                "Urban",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Income or wealth quantile",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Quintile 1 (poorest)",
+                "Quintile 2",
+                "Quintile 3",
+                "Quintile 4",
+                "Quintile 5 (richest)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Education level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Primary education",
+                "Lower secondary education",
+                "Upper secondary education",
+                "Pre-primary education",
+                "Some primary education, grades 2 or 3",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Skill: Mathematics",
+                "Skill: Reading",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Uganda DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above.; Data extracted on 01 April 2022.",
+                "Uganda DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value based on 25-49 unweighted observations in sample.; Data extracted on 01 April 2022.",
+                "Uganda DHS 2016. The survey collected data on school attendance for age 5-24 and educatiol attainment for age 5 and above. Under Coverage (Students or individuals): Value suppressed (less than 25 unweighted observations in sample).; Data extracted on 01 April 2022.",
+                "UNESCO Institute for Statistics.  Data extracted on 01 April 2022.",
+                "National Learning Assessment (NLA): National Assessment of Progress in Education (NAPE); Grade 6; Minimum proficiency level: Adequate level Data extracted on 01 April 2022.",
+                "National Learning Assessment (NLA): National Assessment of Progress in Education (NAPE); Grade 9; Minimum proficiency level: Adequate level Data extracted on 01 April 2022.",
+                "National Learning Assessment (NLA): National Assessment of Progress in Education (NAPE); Grade 3; Minimum proficiency level: Advance Data extracted on 01 April 2022.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = 0;  This data point is NOT APPLICABLE for the submitting nation.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = 0;  This data point is NOT APPLICABLE for the submitting nation.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-5-1",
+  "title": "Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated"
+}

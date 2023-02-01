@@ -1,0 +1,2422 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Disaggregation: UPPER_BOUND - SDG data build documentation</title>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #00703c;
+                    padding: 8px 10px 7px;
+                    border: 2px solid transparent;
+                    border-radius: 0;
+                    color: #fff;
+                    box-shadow: 0 2px 0 #002d18;
+                    text-decoration: none;
+                }
+                .btn-primary:visited {
+                    color: #fff;
+                }
+                .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+                    background-color: #005a30;
+                    text-decoration: none;
+                    border: 2px solid transparent;
+                }
+                .btn-primary:focus:not(:active):not(:hover) {
+                    border-color: #fd0;
+                    color: #0b0c0c;
+                    background-color: #fd0;
+                    box-shadow: 0 2px 0 #0b0c0c;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                a:hover {
+                    color: #003078;
+                }
+                a:visited {
+                    color: #4c2c92;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+                .table-striped tbody tr:nth-of-type(2n+1) {
+                    background-color: #f3f2f1;
+                }
+                #skiplink {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    z-index: 10000;
+                    width: 250px;
+                    margin-left: -125px;
+                    padding: 10px;
+                    background: white;
+                    text-align: center;
+                    border: 1px solid #0b0c0c;
+                    color: #0b0c0c;
+                    display: block;
+                }
+                .sr-only-focusable:not(:focus):not(:focus-within) {
+                    position: absolute !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    padding: 0 !important;
+                    margin: -1px !important;
+                    overflow: hidden !important;
+                    clip: rect(0, 0, 0, 0) !important;
+                    white-space: nowrap !important;
+                    border: 0 !important;
+                }
+            </style>
+        </head>
+        <body>
+            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="/sdg-uganda/data-docs/index.html">SDG data build documentation</a>
+                </div>
+            </nav>
+            <main id="main-content" role="main">
+                <div class="container">
+                    <h1 style="margin:20px 0">Disaggregation: UPPER_BOUND</h1>
+                    <div>
+                        
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#values-used">Values used in disaggregation</a></li>
+                <li><a href="#indicators-using">Indicators using disaggregation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="values-used" tabindex="-1">Values used in disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="values--disaggregation--upper_bound.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--upper_bound">Download CSV of values used in this disaggregation</a>
+            <div id="values--disaggregation--upper_bound" class="download-info">Size: 4.3 kB</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">438</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="values-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Value</th>
+      <th>Disaggregation combinations using this value</th>
+      <th>Number of indicators</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="disaggregation-value--077117.html">0.77117</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--07723.html">0.7723</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--077253.html">0.77253</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--077259.html">0.77259</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--077292.html">0.77292</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--077313.html">0.77313</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--077429.html">0.77429</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--077568.html">0.77568</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--077866.html">0.77866</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--078144.html">0.78144</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--078442.html">0.78442</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--078708.html">0.78708</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--079024.html">0.79024</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--079223.html">0.79223</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--079572.html">0.79572</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--079859.html">0.79859</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--080125.html">0.80125</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--080479.html">0.80479</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--080697.html">0.80697</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--081284.html">0.81284</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--081692.html">0.81692</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--082214.html">0.82214</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--082722.html">0.82722</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--083175.html">0.83175</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--083912.html">0.83912</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--084323.html">0.84323</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--084777.html">0.84777</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--085351.html">0.85351</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--086425.html">0.86425</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--08671.html">0.8671</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--10.html">10</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--10182.html">10182</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--10452.html">10452</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--10480.html">10480</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--1062.html">1062</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--108377.html">10837.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--110859.html">11085.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--111907.html">11190.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--112_.html">1.12</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--114318_.html">11431.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--11550.html">11550</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--12170.html">12170</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--122.html">12.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--12_.html">12</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--147449.html">14.7449</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--15013_.html">15013</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--15164.html">15164</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--152865.html">15.2865</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--157.html">15.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--159.html">15.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--162.html">16.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--16380.html">16380</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--168.html">16.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--171316.html">17.1316</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--175.html">17.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--1772.html">17.72</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--178762.html">17.8762</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--17_.html">17</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--18171.html">18171</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--18252.html">18252</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--184.html">1.84</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--18485.html">18485</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--18824_.html">18824</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--191_.html">19.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--19570.html">19570</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--19673.html">19673</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--19720.html">19720</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--201.html">20.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--20926.html">20926</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--21.html">21</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--21035_.html">21035</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--21120.html">21120</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--21548.html">21548</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--22104.html">2210.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--22190_.html">22190</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--22371.html">2237.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--22445.html">22445</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--2262.html">2262</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--2282.html">2282</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--2286.html">2286</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23057.html">2305.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23077.html">2307.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23096.html">2309.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23192.html">2319.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23289.html">2328.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23335.html">2333.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--2343.html">2343</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23557.html">2355.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23608.html">2360.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23683.html">2368.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23688.html">2368.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23751.html">2375.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23756.html">2375.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--23785.html">2378.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--24.html">24</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--24193.html">2419.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--241_.html">24.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--24616.html">2461.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--24675.html">24.675</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--24883_.html">2488.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--251.html">25.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--252174.html">25217.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--2533.html">2533</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--256966.html">25.6966</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--258_.html">25.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--25_.html">25</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--2610_.html">2610</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--262.html">26.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--263.html">26.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--2669.html">266.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--27335.html">27335</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--277.html">27.7</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--27_.html">2.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--2814.html">2814</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--282086.html">28.2086</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--285204.html">28520.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--286_.html">286</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--289_.html">289</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--28_.html">2.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--291.html">291</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--291894.html">29.1894</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--294.html">294</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--2953.html">29.53</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--295_.html">295</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--296_.html">296</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--297.html">29.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--29_.html">2.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3006.html">3006</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--301_.html">301</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--303.html">303</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--304.html">304</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--305.html">305</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--306.html">306</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--307_.html">307</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--309.html">309</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3116.html">311.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3127.html">312.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--312_.html">312</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3137.html">313.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3163.html">3163</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3166.html">316.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--318371.html">31837.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3186.html">318.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--318_.html">31.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--319_.html">31.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--32.html">3.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3202.html">320.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3205.html">3205</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--321.html">32.1</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3234_.html">3234</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3239.html">323.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--324_.html">32.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--324_.html">324</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--325.html">32.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3257.html">3257</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--328.html">32.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--328997.html">32899.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3292.html">3292</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3298.html">3298</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--32_.html">32</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3319.html">331.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--333.html">333</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--333402.html">33340.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3342.html">334.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--336.html">33.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--338.html">338</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--33836_.html">33836</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3387.html">338.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--341.html">341</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--342.html">342</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--342955_.html">34295.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3436.html">343.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3458.html">345.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--345937.html">345.937</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--346_.html">34.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3478.html">347.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--34_.html">34</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3535.html">353.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--354.html">35.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3568.html">356.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3571.html">3571</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--357_.html">35.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--358_.html">35.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--36.html">36</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--360.html">360</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--364.html">36.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3641.html">364.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3648.html">364.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--366.html">36.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--367.html">36.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3671.html">367.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--368.html">36.8</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3682.html">368.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3683.html">368.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--369.html">36.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--37.html">37</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--371.html">37.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3724_.html">3724</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--374.html">37.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--374305.html">374.305</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--375_.html">37.5</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--376.html">37.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--378.html">37.8</a></td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--37822.html">37822</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--37891.html">37891</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--37_.html">3.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--38.html">38</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--384.html">38.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--386.html">38.6</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3863.html">3863</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--388027.html">388.027</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--389.html">38.9</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--39.html">3.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--390.html">390</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3915.html">391.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--392.html">39.2</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--393.html">39.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--394_.html">39.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--3963.html">3963</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--399.html">39.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--40.html">40</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--401.html">40.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--404.html">40.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--404529.html">40.4529</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--406.html">40.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--406444.html">40.6444</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--40723.html">4072.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--409.html">40.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--409731.html">409.731</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--41.html">4.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--410588.html">410.588</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4110.html">4110</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--412.html">41.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--41220.html">41220</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4134.html">413.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4146.html">4146</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--415_.html">41.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--418.html">41.8</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--419.html">41.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4195.html">419.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--419962.html">419.962</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--42.html">42</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--421.html">42.1</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--422.html">42.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4240_.html">4240</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--425.html">42.5</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--428403.html">428.403</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--429.html">4.29</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--43.html">43</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--432.html">43.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--43226_.html">43226</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--433.html">43.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--43371.html">43371</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--434.html">43.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4354.html">4354</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--436.html">43.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--437.html">437</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4388.html">438.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--438_.html">43.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--439_.html">43.9</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--43_.html">4.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--44.html">4.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--442.html">44.2</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--444.html">44.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--445.html">44.5</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--446.html">44.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--446324.html">446.324</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--447.html">44.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--449.html">44.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--45.html">45</a></td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4504_.html">450.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--451.html">45.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--453_.html">45.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--454.html">45.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4547.html">4547</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--456.html">45.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--458.html">45.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--459.html">45.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4608_.html">4608</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--461.html">46.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4624.html">4624</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--463.html">46.3</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--467.html">46.7</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--468_.html">46.8</a></td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--47.html">4.7</a></td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--473564.html">473.564</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--475.html">47.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4751.html">4751</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4753.html">4753</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--476_.html">47.6</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--477.html">47.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4781.html">4781</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--48.html">4.8</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--481.html">48.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--4821.html">4821</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--484799_.html">48.4799</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--486.html">48.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--48606.html">4860.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--489.html">48.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--49.html">4.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--491.html">49.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--491307.html">491.307</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--492.html">49.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--493.html">49.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--49542.html">4954.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--497.html">49.7</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--5.html">5</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--5028.html">5028</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--504.html">50.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--505532.html">505.532</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--51.html">5.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--511.html">51.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--515.html">51.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--516_.html">51.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--517.html">51.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--5180_.html">5180</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--519868.html">519.868</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--52.html">5.2</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--520.html">520</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--521234.html">521.234</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--522.html">522</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--523.html">523</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--524.html">524</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--527.html">527</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--529453.html">529.453</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--53.html">5.3</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--532.html">532</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--537286.html">537.286</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--54.html">54</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--540.html">540</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--543.html">54.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--5430_.html">5430</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--549.html">549</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--55446.html">5544.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--555178.html">555.178</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--5558.html">5558</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--55_.html">5.5</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--56.html">56</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--560.html">560</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--56622.html">5662.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--56_.html">5.6</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--57.html">5.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--570.html">570</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--573.html">57.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--57446.html">5744.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--57556.html">5755.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--575656.html">575.656</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--576.html">576</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--58947.html">5894.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--58_.html">5.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--59.html">5.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--59058.html">5905.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--5906.html">5906</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--593.html">593</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--59676_.html">5967.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--597549.html">5.97549</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--615.html">61.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--61542_.html">6154.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--616.html">616</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--617.html">61.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--620274.html">620.274</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--62091.html">620.91</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--624_.html">624</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--62579.html">6.2579</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--626.html">626</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--637517.html">637.517</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--63_.html">6.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--64.html">6.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--644.html">644</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--646.html">64.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--65.html">6.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--650947.html">650.947</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--656873.html">65.6873</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--658665.html">65.8665</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--659.html">65.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--66.html">6.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--660.html">660</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--67.html">6.7</a></td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--689.html">68.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--69.html">6.9</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--693.html">693</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--6983.html">6983</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--7.html">7</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--70188.html">7018.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--71383.html">7138.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--716784.html">7.16784</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--719.html">71.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--722442_.html">72.2442</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--724_.html">724</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--735.html">73.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--73_.html">7.3</a></td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--74.html">7.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--742392.html">7.42392</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--751.html">75.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--753.html">75.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--75_.html">75</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--76.html">7.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--763941.html">7.63941</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--77.html">77</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--773.html">77.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--7771.html">7771</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--783_.html">78.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--786.html">78.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--79.html">7.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--7956.html">7956</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--79856.html">7985.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--8.html">8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--8005.html">8005</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--801.html">80.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--80232.html">8023.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--803.html">80.3</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--807.html">80.7</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--81104.html">8110.4</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--8119.html">8119</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--835_.html">83.5</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--838.html">83.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--856.html">85.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--8599.html">8599</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--86.html">86</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--8615.html">8615</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--863813.html">86.3813</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--866564.html">86.6564</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--88.html">8.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--8892.html">8892</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--89721.html">8972.1</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--90932.html">9093.2</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--9154_.html">9154</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--93509.html">9350.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--9397.html">9397</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--9420_.html">9420</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--94486.html">9448.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--95376.html">9537.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--9569.html">9569</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--957.html">957</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--95768.html">9576.8</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--96426.html">9642.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--99546_.html">9954.6</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--99919_.html">9991.9</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--077117.html\">0.77117<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--07723.html\">0.7723<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--077253.html\">0.77253<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--077259.html\">0.77259<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--077292.html\">0.77292<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--077313.html\">0.77313<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--077429.html\">0.77429<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--077568.html\">0.77568<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--077866.html\">0.77866<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--078144.html\">0.78144<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--078442.html\">0.78442<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--078708.html\">0.78708<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--079024.html\">0.79024<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--079223.html\">0.79223<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--079572.html\">0.79572<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--079859.html\">0.79859<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--080125.html\">0.80125<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--080479.html\">0.80479<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--080697.html\">0.80697<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--081284.html\">0.81284<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--081692.html\">0.81692<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--082214.html\">0.82214<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--082722.html\">0.82722<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--083175.html\">0.83175<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--083912.html\">0.83912<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--084323.html\">0.84323<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--084777.html\">0.84777<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--085351.html\">0.85351<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--086425.html\">0.86425<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--08671.html\">0.8671<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--10.html\">10<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--10182.html\">10182<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--10452.html\">10452<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--10480.html\">10480<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--1062.html\">1062<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--108377.html\">10837.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--110859.html\">11085.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--111907.html\">11190.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--112_.html\">1.12<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--114318_.html\">11431.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--11550.html\">11550<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--12170.html\">12170<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--122.html\">12.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--12_.html\">12<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--147449.html\">14.7449<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--15013_.html\">15013<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--15164.html\">15164<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--152865.html\">15.2865<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--157.html\">15.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--159.html\">15.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--162.html\">16.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--16380.html\">16380<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--168.html\">16.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--171316.html\">17.1316<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--175.html\">17.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--1772.html\">17.72<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--178762.html\">17.8762<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--17_.html\">17<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--18171.html\">18171<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--18252.html\">18252<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--184.html\">1.84<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--18485.html\">18485<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--18824_.html\">18824<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--191_.html\">19.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--19570.html\">19570<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--19673.html\">19673<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--19720.html\">19720<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--201.html\">20.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--20926.html\">20926<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--21.html\">21<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--21035_.html\">21035<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--21120.html\">21120<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--21548.html\">21548<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--22104.html\">2210.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--22190_.html\">22190<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--22371.html\">2237.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--22445.html\">22445<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--2262.html\">2262<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--2282.html\">2282<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--2286.html\">2286<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23057.html\">2305.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23077.html\">2307.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23096.html\">2309.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23192.html\">2319.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23289.html\">2328.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23335.html\">2333.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--2343.html\">2343<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23557.html\">2355.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23608.html\">2360.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23683.html\">2368.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23688.html\">2368.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23751.html\">2375.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23756.html\">2375.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--23785.html\">2378.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--24.html\">24<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--24193.html\">2419.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--241_.html\">24.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--24616.html\">2461.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--24675.html\">24.675<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--24883_.html\">2488.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--251.html\">25.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--252174.html\">25217.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--2533.html\">2533<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--256966.html\">25.6966<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--258_.html\">25.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--25_.html\">25<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--2610_.html\">2610<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--262.html\">26.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--263.html\">26.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--2669.html\">266.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--27335.html\">27335<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--277.html\">27.7<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--27_.html\">2.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--2814.html\">2814<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--282086.html\">28.2086<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--285204.html\">28520.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--286_.html\">286<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--289_.html\">289<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--28_.html\">2.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--291.html\">291<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--291894.html\">29.1894<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--294.html\">294<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--2953.html\">29.53<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--295_.html\">295<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--296_.html\">296<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--297.html\">29.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--29_.html\">2.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3006.html\">3006<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--301_.html\">301<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--303.html\">303<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--304.html\">304<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--305.html\">305<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--306.html\">306<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--307_.html\">307<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--309.html\">309<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3116.html\">311.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3127.html\">312.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--312_.html\">312<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3137.html\">313.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3163.html\">3163<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3166.html\">316.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--318371.html\">31837.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3186.html\">318.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--318_.html\">31.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--319_.html\">31.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--32.html\">3.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3202.html\">320.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3205.html\">3205<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--321.html\">32.1<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3234_.html\">3234<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3239.html\">323.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--324_.html\">32.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--324_.html\">324<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--325.html\">32.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3257.html\">3257<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--328.html\">32.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--328997.html\">32899.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3292.html\">3292<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3298.html\">3298<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--32_.html\">32<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3319.html\">331.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--333.html\">333<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--333402.html\">33340.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3342.html\">334.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--336.html\">33.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--338.html\">338<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--33836_.html\">33836<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3387.html\">338.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--341.html\">341<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--342.html\">342<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--342955_.html\">34295.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3436.html\">343.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3458.html\">345.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--345937.html\">345.937<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--346_.html\">34.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3478.html\">347.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--34_.html\">34<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3535.html\">353.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--354.html\">35.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3568.html\">356.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3571.html\">3571<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--357_.html\">35.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--358_.html\">35.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--36.html\">36<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--360.html\">360<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--364.html\">36.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3641.html\">364.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3648.html\">364.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--366.html\">36.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--367.html\">36.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3671.html\">367.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--368.html\">36.8<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--3682.html\">368.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3683.html\">368.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--369.html\">36.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--37.html\">37<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--371.html\">37.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3724_.html\">3724<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--374.html\">37.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--374305.html\">374.305<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--375_.html\">37.5<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--376.html\">37.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--378.html\">37.8<\/a>","Disaggregation combinations using this value":3,"Number of indicators":3},{"Value":"<a href=\"disaggregation-value--37822.html\">37822<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--37891.html\">37891<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--37_.html\">3.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--38.html\">38<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--384.html\">38.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--386.html\">38.6<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3863.html\">3863<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--388027.html\">388.027<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--389.html\">38.9<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--39.html\">3.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--390.html\">390<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3915.html\">391.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--392.html\">39.2<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--393.html\">39.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--394_.html\">39.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--3963.html\">3963<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--399.html\">39.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--40.html\">40<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--401.html\">40.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--404.html\">40.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--404529.html\">40.4529<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--406.html\">40.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--406444.html\">40.6444<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--40723.html\">4072.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--409.html\">40.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--409731.html\">409.731<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--41.html\">4.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--410588.html\">410.588<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4110.html\">4110<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--412.html\">41.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--41220.html\">41220<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4134.html\">413.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4146.html\">4146<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--415_.html\">41.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--418.html\">41.8<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--419.html\">41.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4195.html\">419.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--419962.html\">419.962<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--42.html\">42<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--421.html\">42.1<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--422.html\">42.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4240_.html\">4240<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--425.html\">42.5<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--428403.html\">428.403<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--429.html\">4.29<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--43.html\">43<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--432.html\">43.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--43226_.html\">43226<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--433.html\">43.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--43371.html\">43371<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--434.html\">43.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4354.html\">4354<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--436.html\">43.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--437.html\">437<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4388.html\">438.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--438_.html\">43.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--439_.html\">43.9<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--43_.html\">4.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--44.html\">4.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--442.html\">44.2<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--444.html\">44.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--445.html\">44.5<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--446.html\">44.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--446324.html\">446.324<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--447.html\">44.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--449.html\">44.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--45.html\">45<\/a>","Disaggregation combinations using this value":3,"Number of indicators":3},{"Value":"<a href=\"disaggregation-value--4504_.html\">450.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--451.html\">45.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--453_.html\">45.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--454.html\">45.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4547.html\">4547<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--456.html\">45.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--458.html\">45.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--459.html\">45.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4608_.html\">4608<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--461.html\">46.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4624.html\">4624<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--463.html\">46.3<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--467.html\">46.7<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--468_.html\">46.8<\/a>","Disaggregation combinations using this value":3,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--47.html\">4.7<\/a>","Disaggregation combinations using this value":5,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--473564.html\">473.564<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--475.html\">47.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4751.html\">4751<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4753.html\">4753<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--476_.html\">47.6<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--477.html\">47.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4781.html\">4781<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--48.html\">4.8<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--481.html\">48.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--4821.html\">4821<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--484799_.html\">48.4799<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--486.html\">48.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--48606.html\">4860.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--489.html\">48.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--49.html\">4.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--491.html\">49.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--491307.html\">491.307<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--492.html\">49.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--493.html\">49.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--49542.html\">4954.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--497.html\">49.7<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--5.html\">5<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--5028.html\">5028<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--504.html\">50.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--505532.html\">505.532<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--51.html\">5.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--511.html\">51.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--515.html\">51.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--516_.html\">51.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--517.html\">51.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--5180_.html\">5180<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--519868.html\">519.868<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--52.html\">5.2<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--520.html\">520<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--521234.html\">521.234<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--522.html\">522<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--523.html\">523<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--524.html\">524<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--527.html\">527<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--529453.html\">529.453<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--53.html\">5.3<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--532.html\">532<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--537286.html\">537.286<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--54.html\">54<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--540.html\">540<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--543.html\">54.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--5430_.html\">5430<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--549.html\">549<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--55446.html\">5544.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--555178.html\">555.178<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--5558.html\">5558<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--55_.html\">5.5<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--56.html\">56<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--560.html\">560<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--56622.html\">5662.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--56_.html\">5.6<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--57.html\">5.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--570.html\">570<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--573.html\">57.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--57446.html\">5744.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--57556.html\">5755.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--575656.html\">575.656<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--576.html\">576<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--58947.html\">5894.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--58_.html\">5.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--59.html\">5.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--59058.html\">5905.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--5906.html\">5906<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--593.html\">593<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--59676_.html\">5967.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--597549.html\">5.97549<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--615.html\">61.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--61542_.html\">6154.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--616.html\">616<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--617.html\">61.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--620274.html\">620.274<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--62091.html\">620.91<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--624_.html\">624<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--62579.html\">6.2579<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--626.html\">626<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--637517.html\">637.517<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--63_.html\">6.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--64.html\">6.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--644.html\">644<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--646.html\">64.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--65.html\">6.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--650947.html\">650.947<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--656873.html\">65.6873<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--658665.html\">65.8665<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--659.html\">65.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--66.html\">6.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--660.html\">660<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--67.html\">6.7<\/a>","Disaggregation combinations using this value":3,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--689.html\">68.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--69.html\">6.9<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--693.html\">693<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--6983.html\">6983<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--7.html\">7<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--70188.html\">7018.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--71383.html\">7138.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--716784.html\">7.16784<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--719.html\">71.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--722442_.html\">72.2442<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--724_.html\">724<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--735.html\">73.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--73_.html\">7.3<\/a>","Disaggregation combinations using this value":2,"Number of indicators":2},{"Value":"<a href=\"disaggregation-value--74.html\">7.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--742392.html\">7.42392<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--751.html\">75.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--753.html\">75.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--75_.html\">75<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--76.html\">7.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--763941.html\">7.63941<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--77.html\">77<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--773.html\">77.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--7771.html\">7771<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--783_.html\">78.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--786.html\">78.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--79.html\">7.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--7956.html\">7956<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--79856.html\">7985.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--8.html\">8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--8005.html\">8005<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--801.html\">80.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--80232.html\">8023.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--803.html\">80.3<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--807.html\">80.7<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--81104.html\">8110.4<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--8119.html\">8119<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--835_.html\">83.5<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--838.html\">83.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--856.html\">85.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--8599.html\">8599<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--86.html\">86<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--8615.html\">8615<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--863813.html\">86.3813<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--866564.html\">86.6564<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--88.html\">8.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--8892.html\">8892<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--89721.html\">8972.1<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--90932.html\">9093.2<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--9154_.html\">9154<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--93509.html\">9350.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--9397.html\">9397<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--9420_.html\">9420<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--94486.html\">9448.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--95376.html\">9537.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--9569.html\">9569<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--957.html\">957<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--95768.html\">9576.8<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--96426.html\">9642.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--99546_.html\">9954.6<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--99919_.html\">9991.9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1}];
+            </script>
+            
+        </div>
+        <div>
+            <h2 id="indicators-using" tabindex="-1">Indicators using disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="indicators--disaggregation--upper_bound.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--upper_bound">Download CSV of indicators using this disaggregation</a>
+            <div id="indicators--disaggregation--upper_bound" class="download-info">Size: 132 Bytes</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">17</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicators-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#15-1-2</td>
+    </tr>
+    <tr>
+      <td>#15-4-1</td>
+    </tr>
+    <tr>
+      <td>#15-5-1</td>
+    </tr>
+    <tr>
+      <td>#2-1-2</td>
+    </tr>
+    <tr>
+      <td>#2-2-1</td>
+    </tr>
+    <tr>
+      <td>#2-2-2</td>
+    </tr>
+    <tr>
+      <td>#2-2-3</td>
+    </tr>
+    <tr>
+      <td>#3-1-1</td>
+    </tr>
+    <tr>
+      <td>#3-3-2</td>
+    </tr>
+    <tr>
+      <td>#3-3-3</td>
+    </tr>
+    <tr>
+      <td>#3-3-4</td>
+    </tr>
+    <tr>
+      <td>#3-4-1</td>
+    </tr>
+    <tr>
+      <td>#3-4-2</td>
+    </tr>
+    <tr>
+      <td>#3-5-2</td>
+    </tr>
+    <tr>
+      <td>#3-6-1</td>
+    </tr>
+    <tr>
+      <td>#3-9-3</td>
+    </tr>
+    <tr>
+      <td>#5-2-1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicators-table'] = [{"Indicator":"#15-1-2"},{"Indicator":"#15-4-1"},{"Indicator":"#15-5-1"},{"Indicator":"#2-1-2"},{"Indicator":"#2-2-1"},{"Indicator":"#2-2-2"},{"Indicator":"#2-2-3"},{"Indicator":"#3-1-1"},{"Indicator":"#3-3-2"},{"Indicator":"#3-3-3"},{"Indicator":"#3-3-4"},{"Indicator":"#3-4-1"},{"Indicator":"#3-4-2"},{"Indicator":"#3-5-2"},{"Indicator":"#3-6-1"},{"Indicator":"#3-9-3"},{"Indicator":"#5-2-1"}];
+            </script>
+            
+        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
+        </html>
+        

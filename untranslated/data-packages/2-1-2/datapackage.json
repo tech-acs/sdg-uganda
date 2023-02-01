@@ -1,0 +1,364 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                "3",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "CA",
+                "G",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "The observation represents the 3-year average of the period 2014-2016. For years when official national data are not available, the values are projected using FAO data or estimates",
+                "The observation represents the 3-year average of the period 2015-2017. For years when official national data are not available, the values are projected using FAO data or estimates",
+                "The observation represents the 3-year average of the period 2016-2018. For years when official national data are not available, the values are projected using FAO data or estimates",
+                "The observation represents the 3-year average of the period 2017-2019. For years when official national data are not available, the values are projected using FAO data or estimates",
+                "The observation represents the 3-year average of the period 2018-2020. For years when official national data are not available, the values are projected using FAO data or estimates",
+                "The observation represents the 3-year average of the period 2019-2021. For years when official national data are not available, the values are projected using FAO data or estimates",
+                "The observation represents the 3-year average of the period 2014-2016.",
+                "The observation represents the 3-year average of the period 2015-2017.",
+                "The observation represents the 3-year average of the period 2016-2018.",
+                "The observation represents the 3-year average of the period 2017-2019.",
+                "The observation represents the 3-year average of the period 2018-2020.",
+                "The observation represents the 3-year average of the period 2019-2021.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UPPER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "65.9",
+                "71.9",
+                "77.3",
+                "77",
+                "75.3",
+                "75",
+                "68.9",
+                "75.1",
+                "80.7",
+                "80.3",
+                "78.6",
+                "78.3",
+                "73.5",
+                "80.1",
+                "86",
+                "85.6",
+                "83.8",
+                "83.5",
+                "25217.4",
+                "28520.4",
+                "31837.1",
+                "32899.7",
+                "33340.2",
+                "34295.5",
+                "7138.3",
+                "8110.4",
+                "9093.2",
+                "9448.6",
+                "9642.6",
+                "9991.9",
+                "7018.8",
+                "7985.6",
+                "8972.1",
+                "9350.9",
+                "9576.8",
+                "9954.6",
+                "21",
+                "24",
+                "26.3",
+                "26.2",
+                "25.1",
+                "25",
+                "39.3",
+                "45",
+                "49.2",
+                "48.9",
+                "46.8",
+                "43.4",
+                "49.7",
+                "54.3",
+                "54",
+                "51.7",
+                "51.6",
+                "8023.2",
+                "9537.6",
+                "10837.7",
+                "11190.7",
+                "11085.9",
+                "11431.8",
+                "4072.3",
+                "4860.6",
+                "5544.6",
+                "5755.6",
+                "5744.6",
+                "5967.6",
+                "4146",
+                "4954.2",
+                "5662.2",
+                "5894.7",
+                "5905.8",
+                "6154.2",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "LOWER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "60.9",
+                "66.9",
+                "72.4",
+                "72.1",
+                "70.4",
+                "70.1",
+                "62.4",
+                "68.6",
+                "74.2",
+                "73.9",
+                "72.2",
+                "71.9",
+                "65.4",
+                "77.8",
+                "77.4",
+                "75.7",
+                "75.3",
+                "23319.6",
+                "26552.1",
+                "29794.3",
+                "30780.6",
+                "31145.8",
+                "32028.7",
+                "6470.4",
+                "7414.1",
+                "8366.7",
+                "8690.5",
+                "8852.4",
+                "9169.8",
+                "6237.7",
+                "7169.7",
+                "8118.3",
+                "8457.1",
+                "8642",
+                "8979.3",
+                "17.4",
+                "20.5",
+                "22.8",
+                "22.7",
+                "21.5",
+                "31.8",
+                "37.5",
+                "41.7",
+                "41.5",
+                "39.4",
+                "39.3",
+                "34.5",
+                "40.7",
+                "45.3",
+                "45",
+                "42.7",
+                "6669.6",
+                "8133.7",
+                "9380.8",
+                "9679.3",
+                "9520.7",
+                "9815",
+                "3296.6",
+                "4052",
+                "4700.8",
+                "4875.1",
+                "4826.7",
+                "5012.7",
+                "3289.6",
+                "4059.5",
+                "4725.9",
+                "4914.6",
+                "4880.8",
+                "5084.7",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "National Entity",
+                "Food and Agriculture Organization of the United Nations (FAO)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Prevalence of moderate or severe food insecurity in the population [2.1.2]",
+                "Population in moderate or severe food insecurity (number) [2.1.2]",
+                "Prevalence of severe food insecurity in the population [2.1.2]",
+                "Population in severe food insecurity (number) [2.1.2]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 years old and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                "Number",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "string"
+          },
+          {
+            "name": "Nature of data points",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Country Adjusted",
+                "Global monitoring data",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "The observation represents the 3-year average of the period 2019-2021. For years when official national data are not available, the values are projected using FAO data or estimates",
+                "The observation represents the 3-year average of the period 2019-2021.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Upper bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "75",
+                "78.3",
+                "83.5",
+                "34295.5",
+                "9991.9",
+                "9954.6",
+                "25",
+                "46.8",
+                "51.6",
+                "11431.8",
+                "5967.6",
+                "6154.2",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Lower bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "70.1",
+                "71.9",
+                "75.3",
+                "32028.7",
+                "9169.8",
+                "8979.3",
+                "21.5",
+                "39.3",
+                "42.7",
+                "9815",
+                "5012.7",
+                "5084.7",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "National Entity",
+                "Food and Agriculture Organization of the United Nations (FAO)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "2-1-2",
+  "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)"
+}

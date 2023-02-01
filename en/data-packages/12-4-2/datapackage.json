@@ -1,0 +1,101 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Electronic waste generated, per capita (Kg) [12.4.2]",
+                "Electronic waste generated (Tonnes) [12.4.2]",
+                "Hazardous waste exported, (Tonnes) [12.4.2]",
+                "Hazardous waste imported, (Tonnes) [12.4.2]",
+                "Hazardous waste treated and by type of treatment (Tonnes) [12.4.2]",
+                "Municipal waste collected (Tonnes) [12.4.2]",
+                "Municipal waste treated, by type of treatment (%) [12.4.2]",
+                "Total waste generation, by activity (Tonnes) [12.4.2]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Waste treatment: Incineration",
+                "Waste treatment: Composting",
+                "Waste treatment: Landfilling",
+                "Waste treatment: Landfilling, controlled",
+                ""
+              ]
+            },
+            "title": "Composite breakdown"
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Kilograms",
+                "Metric Tons",
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "The data was estimated using the UNU tool for E-Waste using the data for imports and Exportso of Electrical and Electroni Equipment.",
+                "Obs_Value = 0;  ",
+                "This data is for about 30 out of 44 municipalities including the Kampala City Council Authority (KCCA).",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "The data was estimated using the UNU tool for E-Waste using the data for imports and Exportso of Electrical and Electroni Equipment.",
+                "Obs_Value = 0;  ",
+                "This data is for about 30 out of 44 municipalities including the Kampala City Council Authority (KCCA).",
+                ""
+              ]
+            },
+            "title": "Observation-level footnotes"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-4-2",
+  "title": "(a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment"
+}

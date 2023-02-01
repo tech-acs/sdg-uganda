@@ -1,0 +1,275 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                "3",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "CA",
+                "M",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                " 41 out of 45 districts",
+                "Oedema data was not considered in the analysis ",
+                "Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                "The estimates for the year 2020 do not account for the full impact of COVID-19.  Household survey data on child height and age were not collected in 2020 due to physical distancing policies. One of the covariates used in the country model takes the impact of COVID-19 partially into account. , Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UPPER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "5.6",
+                "7.3",
+                "5.5",
+                "5.7",
+                "6.7",
+                "5",
+                "4.1",
+                "266.9",
+                "413.4",
+                "338.7",
+                "368.3",
+                "438.8",
+                "343.6",
+                "294",
+                "6.9",
+                "7",
+                "6.6",
+                "6.3",
+                "5.9",
+                "5.3",
+                "5.1",
+                "4.9",
+                "4.7",
+                "4.8",
+                "5.2",
+                "5.8",
+                "318.6",
+                "338",
+                "353.5",
+                "364.1",
+                "368.2",
+                "364.8",
+                "356.8",
+                "345.8",
+                "334.2",
+                "323.9",
+                "316.6",
+                "312.7",
+                "311.6",
+                "313.7",
+                "320.2",
+                "331.9",
+                "347.8",
+                "367.1",
+                "391.5",
+                "419.5",
+                "450.4",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "LOWER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "4.4",
+                "5.3",
+                "3.5",
+                "3.8",
+                "2.6",
+                "2.9",
+                "207.1",
+                "297.1",
+                "216.3",
+                "241.6",
+                "167.7",
+                "201.5",
+                "212.3",
+                "4.1",
+                "4.3",
+                "4.5",
+                "4.2",
+                "4",
+                "3.6",
+                "3.4",
+                "3.2",
+                "3.1",
+                "3",
+                "2.8",
+                "195.9",
+                "210.4",
+                "222.8",
+                "232.1",
+                "237.5",
+                "238.9",
+                "237.3",
+                "232.8",
+                "227.4",
+                "219",
+                "215.7",
+                "212.6",
+                "209.2",
+                "209.3",
+                "209.9",
+                "211.3",
+                "213.9",
+                "216.1",
+                "217.3",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Uganda demographic and health survey 2000-2001. Demographic and Health Surveys. Calverton, Maryland, USA: UBOS and ORC Macro, 2001",
+                "Uganda demographic and health survey 2006. Demographic and Health Surveys. Calverton, Maryland, USA: UBOS and Macro International Inc., 2007",
+                "The Uganda National Panel Survey (UNPS) 2009/10",
+                "Uganda demographic and health survey 2011. Demographic and Health Surveys. Kampala, Uganda: UBOS and Calverton, Maryland: ICF International Inc., 2012",
+                "Uganda National Panel Survey (UNPS) - Wave III. Kampala, Uganda: UBOS, 2013",
+                "The Uganda National Panel Survey (UNPS) 2013/14",
+                "Uganda Demographic and Health Survey 2016. Kampala, Uganda and Rockville, Maryland, USA: UBOS and ICF. 2018",
+                "Source: Joint Child Malnutrition Estimates (2021 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of children moderately or severely wasted [2.2.2]",
+                "Children moderately or severely wasted (number) [2.2.2]",
+                "Proportion of children moderately or severely overweight [2.2.2]",
+                "Children moderately or severely overweight (number) [2.2.2]",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                "Number",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "string"
+          },
+          {
+            "name": "Nature of data points",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Country Adjusted",
+                "Modeled",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Oedema data was not considered in the analysis ",
+                "The estimates for the year 2020 do not account for the full impact of COVID-19.  Household survey data on child height and age were not collected in 2020 due to physical distancing policies. One of the covariates used in the country model takes the impact of COVID-19 partially into account. , Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Upper bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "4.1",
+                "294",
+                "5.8",
+                "450.4",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Lower bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2.9",
+                "212.3",
+                "2.8",
+                "217.3",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Uganda Demographic and Health Survey 2016. Kampala, Uganda and Rockville, Maryland, USA: UBOS and ICF. 2018",
+                "Source: Joint Child Malnutrition Estimates (2021 Edition), United Nations Children's Fund (UNICEF), World Health Organisation (WHO) and the World Bank Group.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "2-2-2",
+  "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)"
+}

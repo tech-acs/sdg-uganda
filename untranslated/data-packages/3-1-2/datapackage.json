@@ -1,0 +1,54 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unclear definition of the cadres included",
+                "Definition includes other cadres that is not in alignment with the standard definition",
+                "Cadres included align with the standard definition of: Doctor, nurse and/or midwife",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Uganda National Household Survey (UNHS) 1999/2000 - Report on the Socio-Economic. Entebbe: Uganda Bureau of Statistics; 2001.",
+                "Uganda Bureau of Statistics (UBOS), ORC Macro. Uganda Demographic and Health Survey 2000-2001. Calverton, Maryland, USA: UBOS, ORC Macro; 2001.",
+                "Uganda Bureau of Statistics (UBOS), Macro International Inc. Uganda Demographic and Health Survey 2006. Calverton, Maryland, USA: UBOS, Macro International Inc.; 2007.",
+                "Uganda Bureau of Statistics (UBOS), ICF International. Uganda Demographic and Health Survey 2011. Kampala, Uganda: UBOS, ICF International; 2012.",
+                "Uganda Bureau of Statistics (UBOS), ICF. Uganda Demographic and Health Survey 2016. Kampala, Uganda and Rockville, Maryland, USA: UBOS, ICF; 2018.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-1-2",
+  "title": "Proportion of births attended by skilled health personnel"
+}

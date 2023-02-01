@@ -1,0 +1,57 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Uganda - National Household Survey 2002-2003- World Bank SHES serie",
+                "Uganda - National Household Survey 2005-2006- World Bank SHES serie",
+                "Uganda - National Household Survey 2009-2010- World Bank SHES serie",
+                "Uganda - National Household Survey 2012-2013",
+                "Uganda National Household Survey 2016",
+                ""
+              ]
+            },
+            "title": "SOURCE_DETAIL"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of population with large household expenditures on health (greater than 10%) as a share of total household expenditure or income [3.8.2]",
+                "Proportion of population with large household expenditures on health (greater than 25%) as a share of total household expenditure or income [3.8.2]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "3-8-2",
+  "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income"
+}

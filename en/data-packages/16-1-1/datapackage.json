@@ -1,0 +1,92 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adhoc Collection of National Criminal Justice Data as collected in 2013 by UNODC, referred to as UNODC Special Data Collection",
+                "National Criminal Justice Data as Collected through the United Nations Surveys on Crime Trends and the Operations of Criminal Justice Systems (UN-CTS)",
+                "National Police",
+                "UNODC Research",
+                ""
+              ]
+            },
+            "title": "SOURCE_DETAIL"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of victims of intentional homicide per 100,000 population [16.1.1]",
+                "Number of victims of intentional homicide [16.1.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Per 100,000 population",
+                "Number",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "UNODC Research",
+                "National Criminal Justice Data as Collected through the United Nations Surveys on Crime Trends and the Operations of Criminal Justice Systems (UN-CTS)",
+                ""
+              ]
+            },
+            "title": "Source details"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-1-1",
+  "title": "Number of victims of intentional homicide per 100,000 population, by sex and age"
+}

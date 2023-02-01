@@ -1,0 +1,1 @@
+{"data":{"Year":[2018,2018],"UPPER_BOUND":["34","36.4"],"LOWER_BOUND":["16.5","17.9"],"Age":["15 years old and over","15 to 49 years old"],"Upper bound value":["34","36.4"],"Lower bound value":["16.5","17.9"],"Value":[24.2,26.1]},"edges":{"From":["UPPER_BOUND","LOWER_BOUND","Age","Upper bound value"],"To":["LOWER_BOUND","Age","Upper bound value","Lower bound value"]}}

@@ -1,0 +1,64 @@
+Year,Degree of urbanisation,COMMENT_OBS,Observation-level footnotes,Value
+2000,,,,2
+2001,,,,3
+2002,,,,3
+2003,,,,4
+2004,,,,4
+2005,,,,5
+2006,,,,6
+2007,,,,6
+2008,,,,7
+2009,,,,8
+2010,,,,8
+2011,,,,9
+2012,,,,10
+2013,,,,11
+2014,,,,11
+2015,,,,12
+2016,,,,13
+2017,,,,14
+2018,,,,15
+2019,,,,16
+2020,,,,17
+2000,Rural,Obs_Value = 0;  ,Obs_Value = 0;  ,0
+2001,Rural,Obs_Value = 0;  ,Obs_Value = 0;  ,0
+2002,Rural,,Obs_Value = 0;  ,1
+2003,Rural,,Obs_Value = 0;  ,1
+2004,Rural,,Obs_Value = 0;  ,1
+2005,Rural,,Obs_Value = 0;  ,2
+2006,Rural,,Obs_Value = 0;  ,2
+2007,Rural,,Obs_Value = 0;  ,2
+2008,Rural,,Obs_Value = 0;  ,3
+2009,Rural,,Obs_Value = 0;  ,3
+2010,Rural,,Obs_Value = 0;  ,3
+2011,Rural,,Obs_Value = 0;  ,4
+2012,Rural,,Obs_Value = 0;  ,4
+2013,Rural,,Obs_Value = 0;  ,5
+2014,Rural,,Obs_Value = 0;  ,5
+2015,Rural,,Obs_Value = 0;  ,6
+2016,Rural,,Obs_Value = 0;  ,6
+2017,Rural,,Obs_Value = 0;  ,6
+2018,Rural,,Obs_Value = 0;  ,7
+2019,Rural,,Obs_Value = 0;  ,7
+2020,Rural,,Obs_Value = 0;  ,8
+2000,Urban,,,15
+2001,Urban,,,17
+2002,Urban,,,18
+2003,Urban,,,19
+2004,Urban,,,21
+2005,Urban,,,22
+2006,Urban,,,23
+2007,Urban,,,25
+2008,Urban,,,26
+2009,Urban,,,28
+2010,Urban,,,29
+2011,Urban,,,30
+2012,Urban,,,32
+2013,Urban,,,33
+2014,Urban,,,34
+2015,Urban,,,36
+2016,Urban,,,37
+2017,Urban,,,39
+2018,Urban,,,40
+2019,Urban,,,41
+2020,Urban,,,43

@@ -1,0 +1,57 @@
+Year,Economic activity,Observation-level footnotes,Value
+2012,,,22.77854
+2013,,,24.10691
+2014,,,25.11097
+2015,,,26.90695
+2016,,,27.78429
+2017,,,28.46431
+2018,,,32.41871
+2019,,,34.26062
+2012,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.04113
+2013,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.02348
+2014,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.04284
+2015,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.04307
+2016,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.04347
+2017,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.04851
+2018,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.046
+2019,Agriculture (ISIC4 A01 A0210 A0322),Obs_Value = NaN;  NaN = A figure was not provided,0.04629
+2000,Industries,,24.29015
+2001,Industries,,30.44333
+2002,Industries,,37.63866
+2003,Industries,,37.92852
+2004,Industries,,40.6163
+2005,Industries,,43.75744
+2006,Industries,,45.2942
+2007,Industries,,49.83322
+2008,Industries,,55.98558
+2009,Industries,,53.27181
+2010,Industries,,64.28199
+2011,Industries,,79.11125
+2012,Industries,,75.89798
+2013,Industries,,78.92327
+2014,Industries,,79.21854
+2015,Industries,,85.36893
+2016,Industries,,88.49363
+2017,Industries,,87.36392
+2018,Industries,,102.02251
+2019,Industries,,108.99162
+2000,Services (G to T),,29.92089
+2001,Services (G to T),,29.71671
+2002,Services (G to T),,28.9758
+2003,Services (G to T),,27.28862
+2004,Services (G to T),,26.29328
+2005,Services (G to T),,26.11167
+2006,Services (G to T),,26.99429
+2007,Services (G to T),,27.36849
+2008,Services (G to T),,27.26048
+2009,Services (G to T),,28.24989
+2010,Services (G to T),,31.52593
+2011,Services (G to T),,30.86486
+2012,Services (G to T),,32.6353
+2013,Services (G to T),,34.76786
+2014,Services (G to T),,36.65752
+2015,Services (G to T),,39.20771
+2016,Services (G to T),,40.43492
+2017,Services (G to T),,41.92379
+2018,Services (G to T),,47.37098
+2019,Services (G to T),,49.88551

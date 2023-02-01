@@ -1,0 +1,66 @@
+Year,BASE_PER,NATURE,SDG Series,Unit of measure,Base period,Nature of data points,Value
+2000,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,16.65
+2001,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,16.58
+2002,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,16.03
+2003,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,16.04
+2004,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,15.83
+2005,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,15.76
+2006,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,15.24
+2007,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,15.17
+2008,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,14.72
+2009,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,14.43
+2010,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,19.17
+2011,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,18.7
+2012,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,18.48
+2013,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,17.44
+2014,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,17.73
+2015,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,18.04
+2016,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,17.19
+2017,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,17.15
+2018,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,17.43
+2019,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,17.17
+2020,2015,CA,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,17.24
+2021,2015,E,Manufacturing value added as a proportion of GDP [9.2.1],Percent,2015,Estimated,17.24
+2000,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,9.42
+2001,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,9.85
+2002,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,9.7
+2003,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,9.32
+2004,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,9.38
+2005,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,9.22
+2006,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,9.3
+2007,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,9.3
+2008,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,9.74
+2009,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,14.46
+2010,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,19.23
+2011,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,19.42
+2012,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,17.33
+2013,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,20.69
+2014,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,14.69
+2015,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,18.04
+2016,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,15.3
+2017,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,15.6
+2018,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,15.71
+2019,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,15.41
+2020,,CA,Manufacturing value added (current United States dollars) as a proportion of GDP [9.2.1],Percent,,Country Adjusted,16.24
+2000,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,70.43
+2001,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,73.96
+2002,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,74.2
+2003,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,76.35
+2004,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,77.22
+2005,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,81.95
+2006,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,82.16
+2007,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,85.64
+2008,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,88.92
+2009,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,90.28
+2010,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,139.3
+2011,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,137.54
+2012,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,136.5
+2013,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,124.17
+2014,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,132.28
+2015,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,138.23
+2016,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,127.91
+2017,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,131.64
+2018,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,136.25
+2019,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,139.55
+2020,2015,CA,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,134.49
+2021,2015,E,Manufacturing value added per capita [9.2.1],Constant USD,2015,Estimated,137.16

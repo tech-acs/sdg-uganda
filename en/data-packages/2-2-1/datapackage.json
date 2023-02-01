@@ -1,0 +1,223 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0",
+                "3",
+                ""
+              ]
+            },
+            "title": "UNIT_MULT"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                "The estimates for the year 2020 do not account for the full impact of COVID-19.  Household survey data on child height and age were not collected in 2020 due to physical distancing policies. One of the covariates used in the country model takes the impact of COVID-19 partially into account.  Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                "The estimates for the year 2020 do not account for the full impact of COVID-19.  Household survey data on child height and age were not collected in 2020 due to physical distancing policies. One of the covariates used in the country model takes the impact of COVID-19 partially into account. , Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "UPPER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "46.7",
+                "45.8",
+                "45",
+                "44.2",
+                "43.3",
+                "42.5",
+                "41.8",
+                "40.9",
+                "39.9",
+                "38.9",
+                "37.8",
+                "36.7",
+                "35.7",
+                "34.6",
+                "33.6",
+                "32.8",
+                "32.4",
+                "32.1",
+                "32",
+                "31.9",
+                "2210.4",
+                "2237.1",
+                "2262",
+                "2286",
+                "2309.6",
+                "2333.5",
+                "2360.8",
+                "2375.1",
+                "2378.5",
+                "2375.6",
+                "2368.8",
+                "2355.7",
+                "2343",
+                "2319.2",
+                "2305.7",
+                "2307.7",
+                "2328.9",
+                "2368.3",
+                "2419.3",
+                "2461.6",
+                "2488.3",
+                ""
+              ]
+            },
+            "title": "UPPER_BOUND"
+          },
+          {
+            "name": "LOWER_BOUND",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "41.4",
+                "40.8",
+                "40.1",
+                "39.4",
+                "38.6",
+                "37.9",
+                "37.2",
+                "36.5",
+                "35.8",
+                "35",
+                "34.3",
+                "33.4",
+                "32.5",
+                "31.3",
+                "30",
+                "28.7",
+                "27.5",
+                "26.6",
+                "25.8",
+                "25",
+                "24.2",
+                "1961.3",
+                "1991.1",
+                "2017.2",
+                "2039.9",
+                "2059.7",
+                "2079.1",
+                "2103.3",
+                "2119.9",
+                "2131.5",
+                "2140.8",
+                "2147.5",
+                "2144.7",
+                "2133.1",
+                "2096.7",
+                "2054.4",
+                "2013.2",
+                "1980.7",
+                "1958.6",
+                "1943.3",
+                "1919.1",
+                "1883.3",
+                ""
+              ]
+            },
+            "title": "LOWER_BOUND"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of children moderately or severely stunted [2.2.1]",
+                "Children moderately or severely stunted (number) [2.2.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Unit of measure",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                "Number",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Unit multiplier",
+            "type": "string",
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "The estimates for the year 2020 do not account for the full impact of COVID-19.  Household survey data on child height and age were not collected in 2020 due to physical distancing policies. One of the covariates used in the country model takes the impact of COVID-19 partially into account.  Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                "The estimates for the year 2020 do not account for the full impact of COVID-19.  Household survey data on child height and age were not collected in 2020 due to physical distancing policies. One of the covariates used in the country model takes the impact of COVID-19 partially into account. , Figure is a modelled estimate. For primary sources, please refer to the metadata.",
+                ""
+              ]
+            },
+            "title": "Observation-level footnotes"
+          },
+          {
+            "name": "Upper bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "31.9",
+                "2488.3",
+                ""
+              ]
+            },
+            "title": "Upper bound value"
+          },
+          {
+            "name": "Lower bound value",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "24.2",
+                "1883.3",
+                ""
+              ]
+            },
+            "title": "Lower bound value"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "2-2-1",
+  "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age"
+}

@@ -1,0 +1,16 @@
+Year,SOURCE_DETAIL,Sex,COMMENT_OBS,Value
+2005,Source: HIES - National Household Survey,,,8.09
+2009,Source: HIES - National Household Survey,,Population coverage: Excluding both institutional population and armed forces and/or conscripts | Age coverage - minimum age: 14 years old | Age coverage - maximum age: 24 years old,6.95
+2012,Source: LFS - National Labour Force Survey,,Repository: ILO-STATISTICS - Micro data processing | Break in series: Methodology revised,14.53
+2013,Source: HIES - National Household Survey,,Population coverage: Excluding both institutional population and armed forces and/or conscripts | Age coverage - minimum age: 14 years old | Age coverage - maximum age: 24 years old,5.91
+2017,Source: LFS - National Labour Force Survey,,Repository: ILO-STATISTICS - Micro data processing | Employment definition: Excluding own-use production workers | Break in series: Methodology revised,30.01
+2005,Source: HIES - National Household Survey,Female,,11.3
+2009,Source: HIES - National Household Survey,Female,Population coverage: Excluding both institutional population and armed forces and/or conscripts | Age coverage - minimum age: 14 years old | Age coverage - maximum age: 24 years old,9.64
+2012,Source: LFS - National Labour Force Survey,Female,Repository: ILO-STATISTICS - Micro data processing | Break in series: Methodology revised,19.03
+2013,Source: HIES - National Household Survey,Female,Population coverage: Excluding both institutional population and armed forces and/or conscripts | Age coverage - minimum age: 14 years old | Age coverage - maximum age: 24 years old,8.38
+2017,Source: LFS - National Labour Force Survey,Female,Repository: ILO-STATISTICS - Micro data processing | Employment definition: Excluding own-use production workers | Break in series: Methodology revised,37.7
+2005,Source: HIES - National Household Survey,Male,,4.53
+2009,Source: HIES - National Household Survey,Male,Population coverage: Excluding both institutional population and armed forces and/or conscripts | Age coverage - minimum age: 14 years old | Age coverage - maximum age: 24 years old,3.81
+2012,Source: LFS - National Labour Force Survey,Male,Repository: ILO-STATISTICS - Micro data processing | Break in series: Methodology revised,9.88
+2013,Source: HIES - National Household Survey,Male,Population coverage: Excluding both institutional population and armed forces and/or conscripts | Age coverage - minimum age: 14 years old | Age coverage - maximum age: 24 years old,3.31
+2017,Source: LFS - National Labour Force Survey,Male,Repository: ILO-STATISTICS - Micro data processing | Employment definition: Excluding own-use production workers | Break in series: Methodology revised,21.75

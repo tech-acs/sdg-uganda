@@ -1,0 +1,39 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Source: UGANDA BUREAU OF STATISTICS: UGANDA NATIONAL HOUSEHOLD SURVEY 20002/2003 REPORT ON THE SOCIO-ECONOMIC SURVEY. Poverty line is absolute. Government estimate.",
+                "Source: Uganda Bureau of Statistics. Poverty line is absolute. Government estimate.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "1-2-1",
+  "title": "Proportion of population living below the national poverty line, by sex and age"
+}

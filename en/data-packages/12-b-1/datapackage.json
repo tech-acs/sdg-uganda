@@ -1,0 +1,71 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = 0;  Uganda is developing Experimental SEEA that includes the Biodiversity Accounts for Tourism. The draft Reports of the SEEA should be ready in the next 6 months",
+                "Obs_Value = 0;  Uganda has not yet fully completed the development of its Tourism Satellite Accounts. The 2018 draft Report was the first of its kind and lacked credible data on Domestic Tourism (Table 2). However, there are now steps to undertake the second series of Surveys to develop another set of TSA given that a number of surveys have have been concluded.",
+                "Uganda has not yet fully completed the development of its Tourism Satellite Accounts. The 2018 draft Report was the first of its kind and lacked credible data on Domestic Tourism (Table 2). However, there are now steps to undertake the second series of Surveys to develop another set of TSA given that a number of surveys have have been concluded.",
+                "Obs_Value = 0;  Uganda has not yet fully completed the development of its Tourism Satellite Accounts. The 2018 draft Report was the first of its kind and lacked credible data on Domestic Tourism (Table 2). However, there are now steps to undertake the second series of Surveys to develop another set of TSA given that a number of surveys have have been concluded.\nUganda is developing Experimental SEEA that includes the Biodiversity Accounts for Tourism. The draft Reports of the SEEA should be ready in the next 6 months",
+                "Uganda has not yet fully completed the development of its Tourism Satellite Accounts. The 2018 draft Report was the first of its kind and lacked credible data on Domestic Tourism (Table 2). However, there are now steps to undertake the second series of Surveys to develop another set of TSA given that a number of surveys have have been concluded.\nUganda is developing Experimental SEEA that includes the Biodiversity Accounts for Tourism. The draft Reports of the SEEA should be ready in the next 6 months",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "SDG Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism (SEEA tables) [12.b.1]",
+                "Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism (Tourism Satellite Account tables) [12.b.1]",
+                "Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism (Total number of tables) [12.b.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Obs_Value = 0;  Uganda is developing Experimental SEEA that includes the Biodiversity Accounts for Tourism. The draft Reports of the SEEA should be ready in the next 6 months",
+                "Obs_Value = 0;  Uganda has not yet fully completed the development of its Tourism Satellite Accounts. The 2018 draft Report was the first of its kind and lacked credible data on Domestic Tourism (Table 2). However, there are now steps to undertake the second series of Surveys to develop another set of TSA given that a number of surveys have have been concluded.",
+                "Obs_Value = 0;  Uganda has not yet fully completed the development of its Tourism Satellite Accounts. The 2018 draft Report was the first of its kind and lacked credible data on Domestic Tourism (Table 2). However, there are now steps to undertake the second series of Surveys to develop another set of TSA given that a number of surveys have have been concluded.\nUganda is developing Experimental SEEA that includes the Biodiversity Accounts for Tourism. The draft Reports of the SEEA should be ready in the next 6 months",
+                ""
+              ]
+            },
+            "title": "Observation-level footnotes"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "12-b-1",
+  "title": "Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability"
+}
